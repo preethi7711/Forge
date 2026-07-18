@@ -28,7 +28,7 @@ Whether you're learning to code, exercising daily, preparing for interviews, or 
 
 ---
 
-# 🎯 The Problem
+## 🎯 The Problem
 
 Most productivity apps become abandoned checklists after a few weeks because they lack motivation and accountability.
 
@@ -38,7 +38,7 @@ Forge bridges this gap by combining productivity with social motivation, making 
 
 ---
 
-# 💡 The Solution
+### 💡 The Solution
 
 Forge helps users stay consistent by combining:
 
@@ -133,7 +133,7 @@ Visualize progress through:
 
 ---
 
-# 🌍 Impact
+### 🌍 Impact
 
 Forge is designed around one simple principle:
 
@@ -151,7 +151,7 @@ Rather than encouraging more screen time, Forge encourages more personal growth.
 
 ---
 
-# 🛠 Tech Stack
+### 🛠 Tech Stack
 
 | Layer | Technologies |
 |--------|--------------|
@@ -164,7 +164,7 @@ Rather than encouraging more screen time, Forge encourages more personal growth.
 
 ---
 
-# 🏗 Architecture
+## 🏗 Architecture
 
 ```text
                 React Frontend
@@ -181,7 +181,7 @@ Rather than encouraging more screen time, Forge encourages more personal growth.
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 forge/
@@ -196,7 +196,7 @@ forge/
 
 ---
 
-# 🚀 Getting Started
+## 🚀 Getting Started
 
 ## Clone the repository
 
@@ -228,7 +228,7 @@ npm run dev
 
 ---
 
-# 🔮 Future Enhancements
+### 🔮 Future Enhancements
 
 - 🤖 AI-powered productivity coach
 - 📅 Google Calendar integration
@@ -240,7 +240,7 @@ npm run dev
 
 ---
 
-# 🤝 Contributing
+### 🤝 Contributing
 
 Contributions, ideas, and feature requests are always welcome.
 
@@ -248,12 +248,12 @@ Feel free to fork the repository and submit a pull request.
 
 ---
 
-# 📄 License
+### 📄 License
 
 Licensed under the MIT License.
 
 ---
 
-# ⭐ Support
+### ⭐ Support
 
 If you found this project interesting, consider giving it a ⭐ on GitHub.
