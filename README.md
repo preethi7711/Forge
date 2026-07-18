@@ -1,237 +1,198 @@
 # 🚀 Forge — Identity-Driven Productivity & Social Accountability Platform
 
-> Build discipline through consistency, meaningful challenges, and social accountability.
+> **Build discipline through consistency, meaningful challenges, and real accountability.**
 
-Forge is a full-stack productivity platform that transforms habit tracking into a collaborative experience. Instead of focusing on endless scrolling or passive engagement, Forge encourages users to build lasting habits by making commitments, maintaining streaks, joining challenges, and staying accountable with friends.
+<p align="center">
+  <img src="./screenshots/dashboard.png" alt="Forge Dashboard" width="100%">
+</p>
 
-Designed with a modern MERN architecture and real-time communication, Forge combines personal productivity with social motivation to help users stay consistent over the long term.
-
----
-
-## ✨ The Problem
-
-Traditional habit trackers often become personal checklists that users abandon after a few days because they lack motivation and accountability.
-
-Social media platforms, on the other hand, maximize screen time rather than helping users achieve meaningful goals.
-
-Forge bridges this gap by combining:
-
-- 🎯 Habit Tracking
-- 🔥 Streak Building
-- 🤝 Accountability Groups
-- 🏆 Community Challenges
-- ⚡ Real-Time Progress Updates
-- 🎮 Gamified Motivation
-
-The result is a platform designed to help users build consistency rather than simply track tasks.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-22-339933?logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-Backend-000000?logo=express" />
+  <img src="https://img.shields.io/badge/MongoDB-Database-47A248?logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Socket.io-Real--Time-010101?logo=socketdotio" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-MIT-green" />
+</p>
 
 ---
 
-# 🌟 Key Features
+## 📖 Overview
+
+Forge is a full-stack productivity platform that transforms habit tracking into a collaborative and engaging experience.
+
+Instead of encouraging endless scrolling or passive engagement, Forge helps users build meaningful routines through **habit tracking, streaks, gamification, real-time collaboration, and accountability with friends**.
+
+Whether you're learning to code, exercising daily, preparing for interviews, or building healthier routines, Forge helps turn small daily actions into long-term habits.
+
+---
+
+# 🎯 The Problem
+
+Most productivity apps become abandoned checklists after a few weeks because they lack motivation and accountability.
+
+Meanwhile, traditional social media platforms maximize engagement rather than helping users achieve meaningful goals.
+
+Forge bridges this gap by combining productivity with social motivation, making consistency rewarding and collaborative.
+
+---
+
+# 💡 The Solution
+
+Forge helps users stay consistent by combining:
+
+- 🔥 Habit Tracking
+- 🏆 Challenge System
+- 👥 Accountability Circles
+- 🎮 Gamification
+- ⚡ Real-Time Collaboration
+- 📊 Progress Analytics
+
+Instead of measuring success through likes or followers, Forge rewards consistency, discipline, and continuous improvement.
+
+---
+
+# ✨ Features
 
 ### 🔥 Habit & Streak Tracking
 
 - Create personalized daily habits
-- Track completion with a single click
+- One-click daily check-ins
 - Build and maintain streaks
-- View long-term consistency metrics
-- Earn recovery tokens to protect important streaks
+- Recovery Tokens to protect important streaks
+- Long-term consistency tracking
 
 ---
 
-### 🏆 Challenge System
+### 🏆 Community Challenges
 
-Participate in multi-day challenges individually or with friends.
-
-Examples:
+Participate in individual or group challenges such as:
 
 - 30-Day Coding Challenge
 - Daily Reading Challenge
 - Fitness Challenge
+- Morning Routine Challenge
 - No Social Media Challenge
-- 100 Push-ups Challenge
 
-Track collective progress and celebrate milestones together.
+Track progress together and celebrate milestones as a team.
 
 ---
 
 ### 👥 Accountability Circles
 
-Create private accountability groups where members can:
+Stay motivated with friends by creating private accountability groups.
+
+Members can:
 
 - Share daily progress
 - Encourage teammates
-- Stay motivated together
-- Complete challenges collaboratively
-
-Instead of competing for likes, users support each other's goals.
+- Participate in shared challenges
+- Celebrate achievements
+- Stay committed together
 
 ---
 
 ### 🎮 Gamified Productivity
 
-Forge rewards consistency through an engaging progression system.
+Every completed habit contributes toward meaningful progress.
 
 Users earn:
 
 - XP
 - Levels
-- Badges
-- Streaks
-- Achievement milestones
-
-This transforms habit building into an enjoyable long-term experience.
+- Achievement Badges
+- Streak Rewards
+- Milestone Unlocks
 
 ---
 
-### ⚡ Real-Time Social Experience
+### ⚡ Real-Time Experience
 
-Powered by Socket.io.
+Powered by **Socket.io**.
 
-Users receive instant updates when:
+Receive instant updates when:
 
-- Friends complete challenges
-- Someone levels up
-- Streak milestones are reached
-- Messages are sent inside accountability circles
-
-Creating a living community around discipline and consistency.
+- Friends complete habits
+- Someone reaches a new streak
+- Challenges are completed
+- Messages are sent in accountability circles
 
 ---
 
-### 📊 Progress Analytics
+### 📊 Analytics Dashboard
 
-Visualize your journey with:
+Visualize progress through:
 
-- Daily completion heatmaps
-- Weekly discipline score
-- Monthly consistency metrics
+- Daily activity heatmaps
+- Discipline score
+- Consistency score
 - XP progression
-- Current streak
+- Current & longest streak
 - Habit completion history
 
 ---
 
-# 💡 Impact
+# 🌍 Impact
 
-Forge encourages users to develop sustainable habits by combining behavioral psychology with social accountability.
+Forge is designed around one simple principle:
 
-Instead of measuring success through likes or followers, the platform measures meaningful progress through:
+> **Small, consistent actions lead to extraordinary long-term results.**
 
-- Consistency
-- Discipline
-- Commitment
-- Community Support
+By combining behavioral psychology, gamification, and social accountability, Forge helps users:
 
-By allowing friends to participate in shared challenges, celebrate achievements, and encourage one another, Forge makes long-term habit formation more engaging and sustainable.
+- Build lasting habits
+- Maintain longer streaks
+- Stay accountable with friends
+- Complete meaningful challenges
+- Develop discipline through consistency
+
+Rather than encouraging more screen time, Forge encourages more personal growth.
 
 ---
 
 # 🛠 Tech Stack
 
-### Frontend
-
-- React
-- TypeScript
-- Tailwind CSS
-- Vite
-
-### Backend
-
-- Node.js
-- Express.js
-- Socket.io
-- JWT Authentication
-- bcrypt.js
-
-### Database
-
-- MongoDB (Mongoose-ready)
-- Local JSON persistence fallback
-
-### Development
-
-- REST APIs
-- Real-time WebSockets
-- TypeScript
-- Modern Component Architecture
+| Layer | Technologies |
+|--------|--------------|
+| Frontend | React, TypeScript, Tailwind CSS, Vite |
+| Backend | Node.js, Express.js |
+| Database | MongoDB, Mongoose |
+| Authentication | JWT, bcrypt.js |
+| Real-Time | Socket.io |
+| APIs | REST APIs |
 
 ---
 
 # 🏗 Architecture
 
-```
-
-React Client
-│
-├── REST API
-│
-▼
-
-Express Server
-│
-├── Authentication
-├── Habit Engine
-├── Challenge System
-├── Social Features
-└── Analytics
-
-│
-
-▼
-
-MongoDB
-
-│
-
-▼
-
-Socket.io
-
-↓
-
-Real-Time Notifications
-Real-Time Chats
-Live Progress Updates
-
+```text
+                React Frontend
+                       │
+          REST API + WebSockets
+                       │
+              Express.js Backend
+                       │
+     Authentication • Habits • Challenges
+        Social Features • Analytics
+                       │
+                   MongoDB
 ```
 
 ---
 
 # 📂 Project Structure
 
-```
-
+```text
 forge/
 │
-├── src/
+├── client/
 ├── server/
-├── components/
-├── routes/
-├── socket/
-├── db/
-├── package.json
-└── README.md
-
+├── screenshots/
+├── README.md
+├── .env.example
+└── package.json
 ```
-
----
-
-# 🔐 Core Functionalities
-
-- User Authentication
-- JWT Authorization
-- Habit Management
-- Daily Check-ins
-- Streak Engine
-- Recovery Tokens
-- XP & Leveling
-- Friend System
-- Accountability Circles
-- Community Challenges
-- Leaderboards
-- Live Notifications
-- Real-Time Messaging
 
 ---
 
@@ -256,9 +217,10 @@ Create a `.env` file.
 
 ```env
 JWT_SECRET=your_secret_key
+MONGODB_URI=your_mongodb_connection_string
 ```
 
-## Start development server
+## Run the development server
 
 ```bash
 npm run dev
@@ -266,32 +228,32 @@ npm run dev
 
 ---
 
-## 🔮 Future Improvements
+# 🔮 Future Enhancements
 
-- Mobile application
-- Push notifications
-- Google Authentication
-- Calendar integrations
-- AI-powered habit recommendations
-- Personalized productivity insights
-- Team productivity dashboards
-- Advanced analytics
-- Achievement sharing
+- 🤖 AI-powered productivity coach
+- 📅 Google Calendar integration
+- 🔔 Push notifications
+- 📱 Mobile application
+- 📈 Advanced analytics dashboard
+- 🌍 Public challenge marketplace
+- 🏢 Team workspaces
 
 ---
 
-### 🤝 Contributing
+# 🤝 Contributing
 
-Contributions, feature requests, and suggestions are welcome.
+Contributions, ideas, and feature requests are always welcome.
 
 Feel free to fork the repository and submit a pull request.
 
 ---
 
-### 📄 License
+# 📄 License
 
-This project is licensed under the MIT Licen.
+Licensed under the MIT License.
 
 ---
 
-If you found this project interesting, consider giving it a star!
+# ⭐ Support
+
+If you found this project interesting, consider giving it a ⭐ on GitHub.
