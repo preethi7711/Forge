@@ -1,0 +1,6 @@
+{
+  "name": "Forge",
+  "description": "An identity-based productivity platform built to forge discipline, track habits, complete challenges, and support accountability circles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F8F7F4; /* Soft warm stone */
+  color: #111827; /* Premium SaaS Primary Text */
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark {
+  background-color: #0c0a09 !important; /* Deep premium slate / stone-950 */
+  color: #f5f5f4 !important; /* Soft premium off-white text */
+}
+
+/* Base Headings & Display Elements in Dark Mode */
+body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark .font-display,
+body.dark .text-black, body.dark .text-neutral-900, body.dark .text-[#111827], body.dark .text-neutral-800 {
+  color: #f5f5f4 !important;
+}
+
+/* Card Overrides in Dark Mode */
+body.dark .bg-white {
+  background-color: #1c1917 !important; /* stone-900 */
+}
+
+body.dark .bg-neutral-50, 
+body.dark .bg-slate-50, 
+body.dark .bg-[#F8F7F4] {
+  background-color: #12100e !important; /* deep charcoal background */
+}
+
+body.dark .bg-neutral-100 {
+  background-color: #2e2b28 !important; /* stone-800 */
+}
+
+/* Border Overrides in Dark Mode */
+body.dark .border-[#E7E5E4],
+body.dark .border-neutral-100,
+body.dark .border-neutral-200,
+body.dark .border-neutral-300,
+body.dark .border-neutral-250,
+body.dark .border-neutral-350,
+body.dark .border-slate-100,
+body.dark .border-slate-200 {
+  border-color: #2e2b28 !important; /* stone-800 */
+}
+
+/* Neutral Text Overrides in Dark Mode */
+body.dark .text-neutral-600,
+body.dark .text-neutral-500,
+body.dark .text-[#6B7280],
+body.dark .text-slate-600 {
+  color: #a8a29e !important; /* stone-400 */
+}
+
+body.dark .text-neutral-400,
+body.dark .text-slate-400 {
+  color: #78716c !important; /* stone-500 */
+}
+
+/* Interactive Elements & Hover States in Dark Mode */
+body.dark .hover\:bg-neutral-50:hover,
+body.dark .hover\:bg-slate-50:hover {
+  background-color: #2e2b28 !important;
+}
+
+body.dark .hover\:text-black:hover,
+body.dark .hover\:text-neutral-900:hover {
+  color: #ffffff !important;
+}
+
+/* Form inputs & interactive controls in Dark Mode */
+body.dark input,
+body.dark textarea,
+body.dark select {
+  background-color: #171412 !important;
+  color: #f5f5f4 !important;
+  border-color: #2e2b28 !important;
+}
+
+body.dark input:focus,
+body.dark textarea:focus,
+body.dark select:focus {
+  border-color: #C89B3C !important;
+  background-color: #1c1917 !important;
+  --tw-ring-color: #C89B3C !important;
+}
+
+body.dark .placeholder\:text-neutral-400::placeholder,
+body.dark ::placeholder {
+  color: #57534e !important; /* stone-600 */
+}
+
+/* Buttons overriding in Dark Mode */
+body.dark button.bg-black,
+body.dark a.bg-black {
+  background-color: #f5f5f4 !important;
+  color: #1c1917 !important;
+}
+body.dark button.bg-black:hover,
+body.dark a.bg-black:hover {
+  background-color: #e7e5e4 !important;
+}
+body.dark button.bg-black .text-white,
+body.dark button.bg-black svg {
+  color: #1c1917 !important;
+}
+
+/* Shadows in Dark Mode */
+body.dark .shadow-xs,
+body.dark .shadow-sm,
+body.dark .shadow-md,
+body.dark .shadow-lg,
+body.dark .shadow-xl,
+body.dark .shadow-2xl,
+body.dark .shadow-\[0_10px_35px_rgba\(0\,0\,0\,0\.015\)\] {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Modals backdrop overlay in Dark Mode */
+body.dark .bg-black\/60 {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #111827;
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Custom Scrollbar for high-end feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(17, 17, 17, 0.15);
+  border-radius: 999px;
+}
+body.dark ::-webkit-scrollbar-thumb {
+  background: rgba(245, 245, 244, 0.15);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(17, 17, 17, 0.25);
+}
+body.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 245, 244, 0.25);
+}
+
+/* Slide in animation for notifications */
+@keyframes slideIn {
+  from {
+    transform: translateY(100%) scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
