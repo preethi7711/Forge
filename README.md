@@ -266,7 +266,7 @@ npm run dev
 
 ---
 
-# 🔮 Future Improvements
+## 🔮 Future Improvements
 
 - Mobile application
 - Push notifications
@@ -280,7 +280,7 @@ npm run dev
 
 ---
 
-# 🤝 Contributing
+### 🤝 Contributing
 
 Contributions, feature requests, and suggestions are welcome.
 
@@ -288,10 +288,10 @@ Feel free to fork the repository and submit a pull request.
 
 ---
 
-# 📄 License
+### 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT Licen.
 
 ---
 
-# ⭐ If you found this project interesting, consider giving it a star!
+If you found this project interesting, consider giving it a star!
